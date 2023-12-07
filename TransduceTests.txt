@@ -12,6 +12,11 @@ der2 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16?
 ->15 16.
 
 OK
+der3 x y z t u v,t u v.
+der3 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16?
+->14 15 16.
+
+OK
 
 reverse a b c d e,e d c b a.
 reverse 1 2 3 4 5 6 7 8?
@@ -245,6 +250,6 @@ sort1 1 1 1 1 2 2 2 2?
 
 KO
 
-sort1 x y x y x y x y,x x x x y y y y.
-sort1 a b a b a b a b a b,a a a a a b b b b b.
-sort1 1 2 1 2 1 2 1 2 1 2 1 2?
+sort1gen x y x y x y x y,x x x x y y y y.
+sort1gen a b a b a b a b a b,a a a a a b b b b b.
+sort1gen 1 2 1 2 1 2 1 2 1 2 1 2?
